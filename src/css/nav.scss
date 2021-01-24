@@ -1,0 +1,28 @@
+$backgroundColor: rgb(200, 213, 224);
+
+nav {
+  position: sticky;
+  top: 0px;
+  // 메뉴 중앙 정렬
+  display: flex;
+  justify-content: center;
+  background-color: $backgroundColor;
+  ul {
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    li {
+      font-weight: bold;
+      color: black;
+
+      a {
+        text-decoration: none;
+      }
+      .now {
+        color: red;
+      }
+    }
+  }
+}

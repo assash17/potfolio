@@ -1,0 +1,140 @@
+$backgroundColor-profile: aqua;
+$backgroundColor-section2: beige;
+$backgroundColor-section3: rgb(216, 181, 137);
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .profile {
+    // background-color: $backgroundColor-profile;
+    // height: 500px;
+    // 세로 배열
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    .photo {
+      width: 11rem;
+      height: 13rem;
+      border-radius: 50%;
+      box-shadow: 10px 10px 10px gray;
+    }
+    .info {
+      padding: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    table.type11 {
+      border-collapse: separate;
+      border-spacing: 1px;
+      text-align: center;
+      line-height: 1.5;
+      margin: 20px 10px;
+      box-shadow: 10px 10px 10px gray;
+    }
+    table.type11 th {
+      width: 155px;
+      padding: 10px;
+      font-weight: bold;
+      vertical-align: top;
+      color: #fff;
+      background: #ce4869;
+    }
+    table.type11 td {
+      width: 155px;
+      padding: 10px;
+      vertical-align: top;
+      border-bottom: 1px solid #ccc;
+      background: #eee;
+    }
+  }
+  .skills {
+    background-color: $backgroundColor-section2;
+    // height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    article.have {
+      h3 {
+        text-align: center;
+      }
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      > div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          span {
+            margin-top: 3rem;
+            label {
+              display: inline-block;
+              width: 7rem;
+              height: 3rem;
+              line-height: 3rem;
+            }
+            progress {
+              width: 15rem;
+              background-color: red;
+              box-shadow: 5px 5px 5px gray;
+            }
+          }
+        }
+      }
+    }
+    article.interest {
+      margin: 5rem 0 2rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      h3 {
+        text-align: center;
+      }
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {
+          width: 8rem;
+          height: 8rem;
+          object-fit: contain;
+          border: 1px solid gray;
+          border-radius: 1rem;
+          margin: 1rem;
+          box-shadow: 5px 5px 5px gray;
+        }
+      }
+    }
+  }
+  .project {
+    h3 {
+      text-align: center;
+    }
+    margin: 2rem 0;
+    // background-color: $backgroundColor-section3;
+    // height: 500px;
+    > div {
+      margin: 1rem 0;
+      padding: 2rem;
+      background-color: rgba(158, 140, 140, 0.541);
+      border-radius: 2rem;
+      box-shadow: 5px 10px 8px #888888;
+      ul {
+        list-style-type: circle;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+}
+// h tag들 기본 마진 삭제
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

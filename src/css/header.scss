@@ -1,0 +1,57 @@
+header {
+  div {
+    position: relative;
+    // 화면 전체
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div:after {
+    // 배경이미지만 opacity 주기 위해 가상요소 만들어서 css 적용
+    background-image: url("../resource/startBackground.jpg");
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.3 !important;
+    filter: alpha(opacity=50);
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  a {
+    text-decoration: none;
+    background-color: black;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+    &:hover {
+      background-color: white;
+      color: black;
+      animation-duration: 1s;
+      animation-name: test;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+  }
+  @keyframes test {
+    from {
+      font-size: 1rem;
+    }
+    to {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>정성훈의 포트폴리오 입니다.</h1>
+        <a href="#menu">GO!</a>
+      </div>
+    </header>
+    <nav id="menu">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="profile" class="profile">
+        <article>
+          <img class="photo" />
+          <div class="info">
+            <h2>정성훈</h2>
+            <h4>(Jeong-SeongHoon)</h4>
+            <h4>1989.08.16</h4>
+          </div>
+        </article>
+        <article>
+          <table class="type11">
+            <thead>
+              <tr>
+                <th>분류</th>
+                <th>자격증</th>
+                <th>점수(급수)</th>
+                <th>기관</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IT/컴퓨터</td>
+                <td>정보처리기사</td>
+                <td>합격</td>
+                <td>한국산업인력공단</td>
+              </tr>
+              <tr>
+                <td>IT/컴퓨터</td>
+                <td>CKA(Certified Kubernetes Administrator)</td>
+                <td>합격</td>
+                <td>CNCF (Cloud Native Computing Foundation)</td>
+              </tr>
+              <tr>
+                <td>어학(외국어)</td>
+                <td>TOEIC</td>
+                <td>750</td>
+                <td>ETS</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+      <section id="skills" class="skills">
+        <article class="have">
+          <h3>기술스택</h3>
+          <div>
+            <div>
+              <span>
+                <label for="javascript">Javascript</label>
+                <progress id="javascript" max="100" value="90">90%</progress>
+              </span>
+              <span>
+                <label for="HTML">HTML</label>
+                <progress id="HTML" max="100" value="90">90%</progress>
+              </span>
+              <span>
+                <label for="CSS">CSS</label>
+                <progress id="CSS" max="100" value="90">90%</progress>
+              </span>
+              <span>
+                <label for="React">React</label>
+                <progress id="React" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="TypeScript">TypeScript</label>
+                <progress id="TypeScript" max="100" value="80">80%</progress>
+              </span>
+            </div>
+            <div>
+              <span>
+                <label for="Python">Python</label>
+                <progress id="Python" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="Java">Java</label>
+                <progress id="Java" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="SheelScript">Sheel Script</label>
+                <progress id="SheelScript" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="Database">Database</label>
+                <progress id="Database" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="LinuxSystem">Linux System</label>
+                <progress id="LinuxSystem" max="100" value="80">80%</progress>
+              </span>
+              <span>
+                <label for="Kubernetes">Kubernetes</label>
+                <progress id="Kubernetes" max="100" value="80">80%</progress>
+              </span>
+            </div>
+          </div>
+        </article>
+        <article class="interest">
+          <h3>관심기술</h3>
+          <div></div>
+        </article>
+      </section>
+      <section id="project" class="project">
+        <h3>프로젝트</h3>
+        <div>
+          <h2>제품 Installer 개발 (React Desktop App)</h2>
+          <div>개발기간: 2020.4 ~ 진행 중</div>
+          <h4>
+            GUI를 통해 사내 제품을 원격(SSH)으로 설치 할 수 있는 React Desktop
+            App 개발
+          </h4>
+          <ul>
+            <h4>결과 및 성과</h4>
+            <li>
+              CLI를 통해 수동으로 설치하던 작업을 GUI를 통해 자동으로 설치 할 수
+              있도록 함
+            </li>
+            <li>설치 시간 단축 ( 3시간 이상-> 15분)</li>
+          </ul>
+          <ul>
+            <h4>맡은 업무</h4>
+            <li>React와 Electron 환경 구성 및 화면 기능 개발</li>
+            <li>Npm 환경에서 다양한 모듈 도입 (ssh, scp, yaml parser)</li>
+            <li>TypeScript 도입을 통한 앱 안정성 향상</li>
+          </ul>
+          <ul>
+            <h4>사용 기술</h4>
+            <li>JavaScript, TypeScript, HTML, CSS</li>
+            <li>Elecrton, React, Redux, React Router</li>
+            <li>Npm, yarn, Shell script</li>
+          </ul>
+          <div>https://github.com/tmax-cloud/hypercloud-installer</div>
+        </div>
+        <div>
+          <h2>홈페이지 개발 (Web Site)</h2>
+          <div>개발기간: 2019.6 ~ 2019.7 (2달)</div>
+          <h4>사내 홈페이지 리뉴얼 프로젝트</h4>
+          <ul>
+            <h4>결과 및 성과</h4>
+            <li>짧은 기간 내에 성공적으로 홈페이지를 리뉴얼하여 오픈</li>
+          </ul>
+          <ul>
+            <h4>맡은 업무</h4>
+            <li>화면 layout 구성 및 기능 개발</li>
+            <li>구글맵 API, Youtube API 연동</li>
+            <li>웹 서버 https 적용</li>
+          </ul>
+          <ul>
+            <h4>사용 기술</h4>
+            <li>JavaScript, HTML, CSS</li>
+            <li>오픈 API 연동 (google map, youtube)</li>
+          </ul>
+          <div>https://tmaxanc.com</div>
+        </div>
+        <div>
+          <h2>클라우드 제품 웹 개발 (Web App)</h2>
+          <div>개발기간: 2018.3 ~ 2020.4 (2년 1개월)</div>
+          <h4>
+            사내 Cloud 제품을 웹에서 컨트롤 할 수 있는 SPA(Single Page
+            Application) 개발 (AWS management console과 유사한 기능)
+          </h4>
+          <ul>
+            <h4>결과 및 성과</h4>
+            <li>
+              웹 UI를 통해 사내 Cloud제품을 컨트롤 할 수 있게 하여, 사용자
+              편의성 향상에 기여
+            </li>
+            <li>제품 GS 인증 획득</li>
+          </ul>
+          <ul>
+            <h4>맡은 업무</h4>
+            <li>화면 및 기능 개발</li>
+            <li>팀 내 공통 JS로직, 공통 CSS 개발</li>
+            <li>Ajax로 서버 쪽 백엔드 REST API 서비스 연동</li>
+          </ul>
+          <ul>
+            <h4>사용 기술</h4>
+            <li>JavaScript, HTML, CSS, Ajax</li>
+            <li>REST API</li>
+            <li>Web Socket (실시간 데이터 업데이트)</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Contact Me!</h2>
+      <div>
+        <a
+          href="mailto:assash17@gmail.com"
+          target="_blank"
+          title="assash17@gmail.com"
+        >
+          <i class="fas fa-envelope-square fa-4x"></i>
+        </a>
+        <a href="tel:010-3220-8270" target="_blank" title="010-3220-8270">
+          <i class="fas fa-phone-square fa-4x"></i>
+        </a>
+        <a
+          href="https://github.com/Jeong-SeongHoon"
+          target="_blank"
+          title="https://github.com/Jeong-SeongHoon"
+        >
+          <i class="fab fa-github-square fa-4x"></i>
+        </a>
+        <a
+          href="https://blog.naver.com/assa_sh"
+          target="_blank"
+          title="https://blog.naver.com/assa_sh"
+        >
+          <i class="fab fa-blogger fa-4x"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
