@@ -1,6 +1,6 @@
 # potfolio
 
-https://jeong-seonghoon.github.io/potfolio/
+https://assash17.github.io/potfolio/
 
 # Description
 
